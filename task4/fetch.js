@@ -34,6 +34,3 @@ async function requestMoviesByName(arrOfNameMovies) {
 
   return allMovies;
 }
-requestMoviesByName(['Matrix']).then(movies => {
-  movies.forEach(movie => console.log(movie.title));
-});
