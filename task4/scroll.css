@@ -8,7 +8,7 @@
     margin-left: 40px;
     display: flex;
     gap: 10px;
-    width: calc(100% - 70px);
+    width: calc(100% - 80px);
     overflow: hidden;
     user-select: none;
 }
