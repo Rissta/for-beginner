@@ -18,7 +18,13 @@
     min-width: 120px;
     height: 200px;
     background-color: rgb(22, 22, 22);
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
+
 .element-pagination *{
     background-color: transparent;
 }
