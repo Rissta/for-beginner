@@ -1,0 +1,35 @@
+.top-data-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 6%;
+}
+.bot-data-card{
+    display: contents;
+    display: flex;
+    align-items: center;
+    justify-content:  end;
+    margin-right: 6%;
+    margin-top: 145px;
+}
+.dark-theme p{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    width: auto;
+    height: 20px;
+    border: 1px solid #fff;
+    font-size: 14px;
+
+}
+.yllow-theme p{
+    background-color: gold;
+    color: #171717;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    width:  35px;
+    height: 20px;
+    font-size: 14px;
+}
