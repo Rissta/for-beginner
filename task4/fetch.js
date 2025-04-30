@@ -21,8 +21,8 @@ async function requestMoviesByName(arrOfNameMovies) {
             rating: fullData.imdbRating,
             poster: fullData.Poster
           };
-
-          allMovies.push(movie);
+          const hasNan = Object.values(movie).some(value => value === "N/A");
+          if(!hasNan) allMovies.push(movie);
         }
       } else {
         console.warn(`Фильмы по запросу "${name}" не найдены.`);
